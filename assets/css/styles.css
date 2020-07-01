@@ -1,0 +1,94 @@
+body {
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+}
+
+body ::selection {
+    background: #DB93B0;
+  }
+
+  main {
+
+    padding-top: 5em; 
+  }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  z-index: 9;
+
+  padding: 0.5em 1em ;
+}
+
+.header__logo_image {
+  width: 40px;
+}
+
+.header__logo_title {
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(0,0,255,0.5);
+  letter-spacing: 1px;
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+}
+
+/* -------------------------
+Home page
+---------------------------- */
+
+.home {
+  overflow: hidden !important;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url(../images/home/cover2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home__banner_text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.home__banner_text h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: calc(1em + 15vw) ;
+  /* margin-bottom: 1em; */
+
+  display: inline;
+  position: relative;
+  letter-spacing: -5px;
+  color: rgba(0,0,255,0.5);
+  text-align: center;
+}
+
+.home__banner_text h2:after {
+  content: "Kawaii Ice";
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  color: rgba(255,0,0,0.5);
+  width: 100%;
+}
+
+.home__banner_image {
+  width: 100%;
+  height: auto;
+
+  z-index: -10;
+}

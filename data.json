@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "vanilla",
+    "image": "./images/scoop-1.png"
+  },
+  {
+    "id": 2,
+    "name": "chocolate",
+    "image": "./images/scoop-1.png"
+  }
+]
